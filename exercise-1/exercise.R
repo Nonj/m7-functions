@@ -15,7 +15,7 @@ AddThree(7)
 # Write a function `FeetToMeters` that converts from feet to meters
 
 FeetToMeter <- function(a) {
-  return (a * 3)
+  return (a * 0.3048)
 }
 
 
