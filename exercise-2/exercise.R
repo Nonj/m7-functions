@@ -25,9 +25,9 @@ DescribeDifference <- function(v1, v2) {
   v1.name <- toString(deparse(substitute(v1)))
   v2.name <- toString(deparse(substitute(v2)))
   if (length(v1) > length(v2)) {
-    return(paste0(v1.name + " is longer by ", dif))
+    return(paste0(v1.name, " is longer by ", dif))
   } else {
-    return(paste0(v2.name + " is longer by ", dif))
+    return(paste0(v2.name, " is longer by ", dif))
   }
 }
 
